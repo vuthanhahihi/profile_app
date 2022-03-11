@@ -14,19 +14,19 @@ export default function Contact({ items }) {
         {items.map((item) => (
           <div className="left" key={item}>
             <p>
-              <Cake /> 16/01/1999
+              <Cake /> {item.birthday}
             </p>
             <p>
-              <Person /> Nam
+              <Person /> {item.sex}
             </p>
             <p>
-              <Mail /> vuthanhahihi@gmail.com
+              <Mail /> {item.email}
             </p>
             <p>
-              <Phone /> +0327793637
+              <Phone /> {item.phone}
             </p>
             <p>
-              <LocationOn /> Phố Châu Hương Sơn Hà Tĩnh
+              <LocationOn /> {item.address}
             </p>
           </div>
         ))}
