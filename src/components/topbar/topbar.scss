@@ -1,6 +1,7 @@
 @import "../../global.scss";
 
 .topbar{
+    overflow: hidden;
     width: 100%;
     height: 70px;
     background-color: white;
@@ -45,6 +46,7 @@
         }
 
         .right{
+            
 
             .hamburger{
                 overflow: hidden;
