@@ -4,6 +4,7 @@ import "./topbar.scss"
 
 export default function Topbar({menuOpen, setMenuOpen, items}) {
   return (
+  
     <div className={"topbar " + (menuOpen && "active" )}>
       <div className="wrapper">
       <div className="left">

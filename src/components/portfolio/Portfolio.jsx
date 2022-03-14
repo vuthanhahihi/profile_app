@@ -9,7 +9,7 @@ export default function portfolio({ items }) {
             <h2 className="mb-0">About Me</h2>
           </div>
           <div className="row">
-            <div className="col-md-6 col-lg-4 d-none d-lg-block">
+            <div className="col-md-6 col-lg-4 d-lg-block">
               <img className="img-fluid w-100 rounded" src={item.url} alt="" />
             </div>
             <div className="col-lg-8">

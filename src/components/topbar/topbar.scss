@@ -1,5 +1,7 @@
 @import "../../global.scss";
 
+
+
 .topbar{
     overflow: hidden;
     width: 100%;
@@ -33,7 +35,18 @@
                 display: flex;
                 align-items: center;
                 margin-left: 30px;
-
+                @include Responsive(XS) {
+                    display: none;
+                }
+                @include Responsive(SM) {
+                    display: flex;
+                }
+                @include Responsive(MD) {
+                    display: flex;
+                }
+                @include Responsive(XL) {
+                    display: flex;
+                }
                 .icon{
                     font-size: 18px;
                     margin-right: 5px;
@@ -87,4 +100,6 @@
             }
         }
     }
+
 }
+
