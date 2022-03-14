@@ -5,10 +5,10 @@
     display: flex;
 
     .container{
-        overflow: hidden;
+        overflow: auto;
+        &::-webkit-scrollbar{
+            display: none;
+        }
     }
-
-    
-    
 
 }

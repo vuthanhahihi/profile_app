@@ -1,5 +1,9 @@
 .contact {
   background-color: white;
+  overflow: auto;
+  &::-webkit-scrollbar{
+    display: none;
+}
   
   .contact{
       display: flex;
